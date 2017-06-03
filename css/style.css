@@ -5,7 +5,124 @@ light blue: #1c5380
 */
 
 body {
+  background: linear-gradient(to bottom,#3f729b  34%,rgba(255,255,255,1) 34%);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: 0;
+  margin: auto;
+  align-content: center;
+}
+
+
+#img1 {
+  width: auto;
+  height: auto;
+}
+
+#img2 {
+  width: 20%;
+  height: auto;
+}
+
+.center {
+    margin: auto;
+    padding: 8%;
+}
+
+.aligncenter {
+    display: flex;
+    align-items: center;
+}
+
+button {
+  margin-right: 80%;
+  width: 4.5%;
+  font-size: 15px;
+  text-align: center;
+  
+}
+
+.login {
+  background-color: #3f729b;
+  border-color: slategray;
+  border-style: solid;
+  border-radius: 0%;
+  margin-top: 1.2%;
+  margin-right: 5%;
+  margin-left: 2%;
+  margin-bottom: 20%;
+  position: absolute;
+}
+
+#frame {
+  background-image: url(C:\users\rober\desktop\Connor_Loves_Dick\css-positioning\img\frame.png);
+  background: white;
+  margin-right: 40%;
+  margin-left: 30%;
+  padding: 1%;
+  size: relative;
+  border-radius: 5%;
+}
+
+
+h2 {
+  color: #06365f;
+  font-size: 225%;
+}
+
+.floatright {
+  float: right;
+  margin-right: 10%;
+}
+
+.floatleft {
+  float: left;
+  margin-right: 10%;
+}
+
+.floatclear {
+  clear: left;
+  padding: 5%;
+}
+
+footer {
+  padding-top: 5%;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+
+  font-size: 12px;
+  display: inline;
+  color: #06365f;
+  margin-left: 1%;
+}
+
+#copyright {
+  color: slategray;
+}
+
+
+
+
+#containerimg {
+  height: 400px;
+  width: 400px;
+}
+.imageframe {
+  position: absolute;
+  left: 32%;
+  top: 26%;
+}
+.frametxt {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 32%;
+  top: 26%;
+  margin-right: 20%;
 }
